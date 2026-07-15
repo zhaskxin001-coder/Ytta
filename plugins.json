@@ -2,7 +2,7 @@
   {
     "name": "Samehadaku",
     "description": "Samehadaku Cloudstream Provider",
-    "url": "https://raw.githubusercontent.com/zhaskxin001-coder/ytta/main/Samehadaku.cs3",
+    "url": "https://raw.githubusercontent.com/zhaskxin001-coder/Ytta/main/Samehadaku.cs3",
     "status": 1,
     "version": 1,
     "authors": [
@@ -12,7 +12,7 @@
   {
     "name": "AnimeChin",
     "description": "AnimeChin Cloudstream Provider",
-    "url": "https://raw.githubusercontent.com/zhaskxin001-coder/ytta/main/AnimeChin.cs3",
+    "url": "https://raw.githubusercontent.com/zhaskxin001-coder/Ytta/main/AnichinMoe.cs3",
     "status": 1,
     "version": 1,
     "authors": [
