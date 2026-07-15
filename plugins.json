@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Samehadaku",
+    "description": "Samehadaku Cloudstream Provider",
+    "url": "https://raw.githubusercontent.com/zhaskxin001-coder/ytta/main/Samehadaku.cs3",
+    "status": 1,
+    "version": 1,
+    "authors": [
+      "Roger"
+    ]
+  },
+  {
+    "name": "AnimeChin",
+    "description": "AnimeChin Cloudstream Provider",
+    "url": "https://raw.githubusercontent.com/zhaskxin001-coder/ytta/main/AnimeChin.cs3",
+    "status": 1,
+    "version": 1,
+    "authors": [
+      "Roger"
+    ]
+  }
+]
