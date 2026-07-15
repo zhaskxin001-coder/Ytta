@@ -3,6 +3,6 @@
   "description": "Cloudstream 3 Custom Providers",
   "manifestVersion": 1,
   "pluginLists": [
-    "https://raw.githubusercontent.com/zhaskxin001-coder/ytta/main/plugins.json"
+    "https://raw.githubusercontent.com/zhaskxin001-coder/Ytta/main/plugins.json"
   ]
 }
