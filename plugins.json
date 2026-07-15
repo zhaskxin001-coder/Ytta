@@ -11,7 +11,7 @@
     "version": 25,
     "internalName": "Samehadaku",
     "description": "Samehadaku Cloudstream Provider",
-    "url": "https://raw.githubusercontent.com/zhaskxin001-coder/Ytta/main/Samehadaku.cs3",
+    "url": "https://raw.githubusercontent.com/zhaskxin001-coder/Ytta/main/Samehadaku/Samehadaku.cs3",
     "name": "Samehadaku"
   },
   {
@@ -26,7 +26,7 @@
     "version": 25,
     "internalName": "AnichinMoe",
     "description": "AnichinMoe Cloudstream Provider",
-    "url": "https://raw.githubusercontent.com/zhaskxin001-coder/Ytta/main/AnichinMoe.cs3",
+    "url": "https://raw.githubusercontent.com/zhaskxin001-coder/Ytta/main/AnichinMoe/AnichinMoe.cs3",
     "name": "AnichinMoe"
   }
 ]
