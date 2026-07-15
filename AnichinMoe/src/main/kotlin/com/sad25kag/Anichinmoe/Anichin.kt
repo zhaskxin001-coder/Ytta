@@ -31,16 +31,21 @@ class Anichin : MainAPI() {
     override val supportedTypes = setOf(TvType.Movie, TvType.Anime)
 
     override val mainPage = mainPageOf(
-        "anime/?status=ongoing&type=donghua&order=update" to "Donghua Terbaru",
-        "anime/?status=completed&type=donghua&sub=&order=update" to "Donghua Udah Tamat",
-        "anime/?status=hiatus&type=donghua&order=update" to "Donghua Tidak Dilanjutkan",
-        "anime/?type=live+action&order=update" to "Live Action",
-        "anime/?type=donghua&order=title" to "Semua Donghua",
-        "anime/?status=&type=movie&sub=&order=update" to "Donghua Movie"
-    )
+    "" to "🔥 Update Hari Ini",
+    "anime/?status=ongoing&type=donghua&order=update" to "🔥 Donghua Ongoing",
+    "anime/?type=donghua&order=update" to "✨ Donghua Terbaru",
+    "anime/?status=completed&type=donghua&order=update" to "✅ Donghua Tamat",
+    "anime/?type=movie&order=update" to "🎬 Donghua Movie"
+)
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
-        val document = app.get("${mainUrl}/${request.data}&page=$page").document
+        val url = if (request.data.isBlank()) {
+    "$mainUrl/"
+} else {
+    "${mainUrl}/${request.data}&page=$page"
+}
+
+val document = app.get(url).document
         val home = document.select("div.listupd > article").mapNotNull { it.toSearchResult() }
 
         return newHomePageResponse(
