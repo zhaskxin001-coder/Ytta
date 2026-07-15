@@ -1,6 +1,6 @@
 {
-  "name": "Ytta Extensions",
-  "description": "Cloudstream 3 Custom Providers",
+  "name": "Ytta",
+  "description": "Ytta Plugin Repository",
   "manifestVersion": 1,
   "pluginLists": [
     "https://raw.githubusercontent.com/zhaskxin001-coder/Ytta/main/plugins.json"
