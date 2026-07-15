@@ -1,22 +1,30 @@
 [
   {
-    "name": "Samehadaku",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/zhaskxin001-coder/Ytta",
+    "fileSize": 0,
+    "status": 1,
+    "language": "id",
+    "authors": ["Roger"],
+    "tvTypes": ["Anime"],
+    "version": 25,
+    "internalName": "Samehadaku",
     "description": "Samehadaku Cloudstream Provider",
     "url": "https://raw.githubusercontent.com/zhaskxin001-coder/Ytta/main/Samehadaku.cs3",
-    "status": 1,
-    "version": 1,
-    "authors": [
-      "Roger"
-    ]
+    "name": "Samehadaku"
   },
   {
-    "name": "AnimeChin",
-    "description": "AnimeChin Cloudstream Provider",
-    "url": "https://raw.githubusercontent.com/zhaskxin001-coder/Ytta/main/AnichinMoe.cs3",
+    "apiVersion": 1,
+    "repositoryUrl": "https://github.com/zhaskxin001-coder/Ytta",
+    "fileSize": 0,
     "status": 1,
-    "version": 1,
-    "authors": [
-      "Roger"
-    ]
+    "language": "id",
+    "authors": ["Roger"],
+    "tvTypes": ["Anime"],
+    "version": 25,
+    "internalName": "AnichinMoe",
+    "description": "AnichinMoe Cloudstream Provider",
+    "url": "https://raw.githubusercontent.com/zhaskxin001-coder/Ytta/main/AnichinMoe.cs3",
+    "name": "AnichinMoe"
   }
 ]
