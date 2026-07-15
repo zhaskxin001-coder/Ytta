@@ -1,0 +1,8 @@
+{
+  "name": "Roger Extensions",
+  "description": "Cloudstream 3 Custom Providers",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/zhaskxin001-coder/ytta/main/plugins.json"
+  ]
+}
